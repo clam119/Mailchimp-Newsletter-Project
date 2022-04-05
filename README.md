@@ -10,7 +10,9 @@ an external API's backend server and logging that information into their databas
 
 How It Works:
 1) Firstly, feel free to fork this repository and visit the Mailchimp website ("https://us14.admin.mailchimp.com/account/api/") and request your own API key.
-2) Secondly, go to app.js and navigate to "const options" and replace the "auth" value with any username & your api key. (E.g. Example1:apikey012345)
+Make sure that you've created a Mailchimp List so that you can add users to. Then navigate to the "Audience Dashboard" -> Manage Audience -> Settings & Scroll down to find the
+"unique list id", copy this and place this ID in the "const url" and replace it with the "LISTIDHERE"
+2) Secondly, go to app.js and navigate to "const options" and replace the "auth" value with any username & your api key. (E.g. Example1:apikey012345) 
 3) Thirdly, use Node.JS from the Terminal to run nodemon and execute the server by typing this in the Terminal: nodemon app.js 
 4) Lastly, go onto your browser and type in "localhost:3000" to navigate to the localhost at the port 3000, and then try out the application!
 
