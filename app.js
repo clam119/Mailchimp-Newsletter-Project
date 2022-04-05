@@ -38,11 +38,11 @@ app.post("/", function (req, res) {
 
     const jsonData = JSON.stringify(data); //Once the data has been collated, in order to parse the data into a JSON string.
 
-    const url = "https://us14.api.mailchimp.com/3.0/lists/fbbdc4c631" //The endpoint with the unique ID of the list that subscribers will be added to.
+    const url = "https://us14.api.mailchimp.com/3.0/lists/LISTIDHERE" //The endpoint with the unique ID of the list that subscribers will be added to.
 
     const options = { //This second parameter in the constant below is to specify the method that will be called, and will authenticate the post request to mailchimps external server.
         method: "POST",
-        auth: "clam119:ae6d9e7c6298bcb0a0afcd70ad21507c-us14"
+        auth: "USERNAME:APIKEYHERE"
     }
 
     const request = https.request(url, options, function (response) { //A request to post data to the external mailchimp server is made by first looking at the url endpoint, the authentication and method of the request, and lastly the response.
