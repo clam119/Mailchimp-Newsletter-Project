@@ -1,6 +1,6 @@
 # Hi, Thank You For Checking Out This Mini Project - Mailchimp Powered Newsletter Signup 
 
-Heroku Deployment Link: https://secure-ravine-28534.herokuapp.com/
+Heroku Deployment Link: https://mailchimp-newsletter-clam119.herokuapp.com/
 
 ## About This Project:
 
